@@ -335,6 +335,11 @@ print {
     padding: 0.5% 1% 2% 0;
   }
 
+  .viewex {
+    font-weight: bold;
+    cursor: pointer;
+  }
+
   #example {
     display: none;
   }
@@ -494,6 +499,11 @@ print {
     width: 29%;
     float: left;
     margin: 0 2%;
+  }
+
+  .offer:hover {
+    transform: scale(1.25);
+    cursor: pointer;
   }
 
   /* Desktop Viewport: Style rules for form elements */
