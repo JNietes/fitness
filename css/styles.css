@@ -87,6 +87,10 @@ main {
   font-family: "Roboto Slab", sans-serif;
 }
 
+.mobile h1 {
+  margin: 2% 0 0 3%;
+}
+
 .mobile h3 {
   text-shadow: 5px 5px 8px #ccc;
 }
@@ -227,16 +231,29 @@ form #submit {
 }
 
 /* Style rules for footer content */
-footer p {
+footer .copyright {
   font-size: 0.75em;
   text-align: center;
   color: #fff;
-  padding: 0 1em;
+  padding: 2% 4%;
+  float: left;
+  width: 75%;
 }
 
 footer p a {
   color: #fff;
   text-decoration: none;
+}
+
+.social {
+  float: right;
+  width: 20%;
+  padding: 2%;
+}
+
+.social img {
+  display: inline-block;
+  padding: 5%;
 }
 
 /* Media Query for Tablet Viewport*/
@@ -248,7 +265,7 @@ print {
     display: block
   }
 
-  .mobile, .mobile-nav{
+  .mobile, .mobile-nav {
     display: none;
   }
 
